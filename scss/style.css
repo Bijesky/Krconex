@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 4px;
+}
+
+p {
+  font-size: 20px;
+  color: #a8a8a8;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.top {
+  background-color: #323232;
+  color: #323232;
+}
+
+.top .media-acc {
+  padding: 4px 20px;
+}
+
+.top .media-acc .s-media a {
+  font-size: 20px;
+  color: grey;
+  padding: 2px;
+}
+
+.top .media-acc .acc a {
+  font-size: 20px;
+  color: grey;
+}
+
+nav {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  padding: 2px 20px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+nav .logo {
+  font-size: 25px;
+}
+
+nav .nav-items li {
+  padding: 16px;
+}
+
+nav .nav-items a {
+  color: #323232;
+  font-size: 18px;
+}
+
+nav .search {
+  position: relative;
+}
+
+nav .search input {
+  border: none;
+  width: 180px;
+  height: 30px;
+  background-color: #e2e2e2;
+  border-radius: 40px;
+}
+
+nav .search .search-img {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+nav .shopping li {
+  padding: 6px;
+}
+
+main .header {
+  position: relative;
+}
+
+main .header .flex {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .header .shop1 {
+  position: absolute;
+  top: 350px;
+  left: 650px;
+  background-color: white;
+  padding: 8px 12px;
+  font-size: 20px;
+}
+
+main .shop2 {
+  position: absolute;
+  top: 350px;
+  right: 250px;
+  background-color: #323232;
+  color: white;
+  padding: 8px 12px;
+  font-size: 20px;
+}
+
+.sale {
+  padding: 20px 60px;
+  background-color: #323232;
+  color: #c2c2c2;
+}
+
+.sale .sale1 img {
+  margin-right: 20px;
+}
+
+.new {
+  padding: 60px 0;
+}
+
+.best-sellers {
+  text-align: center;
+  margin: auto;
+}
+
+.best-sellers .card {
+  padding: 50px 50px;
+}
+
+.best-sellers .bs-content .bs-text {
+  text-align: left;
+}
+
+.best-sellers .bs-content .bs-text p {
+  margin-bottom: 8px;
+}
+
+.best-sellers .bs-content .bs-text h4 {
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+.best-sellers .bs-content .bs-text h3 {
+  color: #74CA4D;
+  font-size: 30px;
+}
+
+.best-sellers .bs-content .bs-text del {
+  color: #c2c2c2;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.sale-banner {
+  margin: 60px 0;
+  position: relative;
+}
+
+.sale-banner .banner-image {
+  position: absolute;
+  top: -50px;
+  right: 100px;
+}
+
+.newsletter {
+  background-image: url(/img/newsletter.png);
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.newsletter .news {
+  padding: 220px;
+}
+
+.newsletter .news h1 {
+  color: white;
+}
+
+.newsletter .news .newsinput {
+  position: relative;
+}
+
+.newsletter .news .newsinput input {
+  background-color: whtie;
+  padding: 8px 42px;
+  border-radius: 40px;
+  margin-top: 20px;
+  border: none;
+}
+
+.newsletter .news .newsinput .go {
+  position: absolute;
+  background-color: yellow;
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+  line-height: 40px;
+  top: 20px;
+  right: 600px;
+}
+
+.newsletter .news .newsinput .go img {
+  width: 15px;
+}
+
+.trending {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.trending .trend-card {
+  padding: 20px 50px 40px 50px;
+}
+
+.trending .trend-card .t-card {
+  margin-top: 20px;
+}
+
+.trending .trend-card .t-card img {
+  width: 100%;
+}
+
+.trending .btn {
+  background-color: yellow;
+  padding: 10px 12px;
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.what {
+  margin: 40px;
+}
+
+.what .what-left {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  background-color: #323232;
+  color: white;
+  padding: 50px 20px 50px 20px;
+}
+
+.what .what-left h2 {
+  font-size: 32px;
+}
+
+.what .what-left p {
+  font-size: 16px;
+}
+
+.what .what-right {
+  position: relative;
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+  background-color: yellow;
+  color: black;
+  padding: 30px 20px 54px 20px;
+}
+
+.what .what-right .rt {
+  padding: 0px 600px 0 40px;
+  text-align: left;
+}
+
+.what .what-right .rt h5 {
+  font-size: 20px;
+}
+
+.what .what-right .rt p {
+  font-size: 16px;
+  color: grey;
+}
+
+.what .what-right .r-image {
+  position: absolute;
+  top: -20px;
+  right: 120px;
+}
+
+.what .what-right .r-image img {
+  width: 200px;
+}
+
+footer {
+  background-color: #323232;
+  color: white;
+  padding: 20px 0;
+}
+
+footer .icon h4 {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+footer .help li {
+  display: list-item;
+  list-style: none;
+  padding-top: 18px;
+}
+
+footer .help a {
+  color: grey;
+}
+/*# sourceMappingURL=style.css.map */
